@@ -1,53 +1,57 @@
 html{
     background-color: cornflowerblue;
 }
+body{
+    font-family: 'Franklin Gothic Medium';
+}
 header, footer{
     background-color: rgb(114, 114, 114);
     color: blanchedalmond;
     text-align: center;
-    margin: 15px;
-    padding: 15px;
+    margin: 230px 0px 0px 10px;
+    padding: 15px 0px 0px 10px;
 }
 li.nav a{
-color: antiquewhite;
-float: left;
-font-size: 25px;
-text-align: center;
-padding: 5px;
+    color: antiquewhite;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
 }
 ul.navbar{
-background-color: brown;
-list-style-type: none;
-margin: 5px;
-padding: 5px;
-overflow: hidden;
+    background-color: brown;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
 }
 .play{
-border-style: solid;
-border-color: whitesmoke;
-background-color: burlywood;
-color: black;
-float: left;
-width: 50%;
-margin: 10px 5px 0px 10px;
-padding: 10px 5px 0px 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: burlywood;
+    color: black;
+    float: left;
+    width: 40%;
+    margin: 10px 5px 0px 20px;
+    padding: 10px 5px 0px 30px;
 }
 .sidebar{
-border-style: solid;
-border-color: whitesmoke;
-background-color: blue;
-color: aliceblue; 
-text-align: center;
-
-width: 40%;
-margin: 10px 5px 5px 10px;
-padding: 10px 5px 0px 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: blue;
+    color: aliceblue; 
+    text-align: center;
+    float: right;
+    width: 40%;
+    margin: 10px 0px 0px 10px;
+    padding: 5px 0px 0px 5px;
 }
-.sidebar a:hover,
+.sidebar:hover{
+    background-color: rgb(205, 165, 241);
+    color:black;
+}
+
 .navbar a:hover{
     background-color: blueviolet;
     color:black;
-}
-input.play {
-    
 }
